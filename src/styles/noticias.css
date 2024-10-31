@@ -1,0 +1,43 @@
+.contenedorNoticias {
+  
+  height: auto
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 12vh;
+  
+
+
+}
+.cuadroNoticia{
+    
+    width: 30%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.fecha{
+    
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titularNoticia{
+    
+    font-size: larger;
+
+}
+.textoNoticia{
+    
+    font-size: medium;
+    color: rgb(61, 60, 60);
+
+}

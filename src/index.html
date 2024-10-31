@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09f" />
+    <meta name="description" content="delirium web" />
+    <link rel="stylesheet" href="styles/tailwind.css" />
+  </head>
+
+  <body>
+    <header>
+      <a class="icono" href="/index.html"
+        ><img src="/assets/Icono-Delirium2.png"
+      /></a>
+      <div class="contenedorBotones">
+        <a class="boton" href="/noticias.html">Noticias</a>
+        <div class="boton">
+          <a class="boton" href="https://leagueoflegends.com" target="_blank">
+            Registro
+          </a>
+        </div>
+        <div class="boton">
+          <a class="boton" href="/enemigos.html">Enemigos</a>
+        </div>
+
+        <div class="boton">
+          <a class="boton" href="/clases/guerrero.html">Guerrero</a>
+        </div>
+      </div>
+      <img src="/assets/lupa.webp" class="lupa" />
+      <img src="/assets/menu burger.png" class="burger" />
+    </header>
+
+    <section class="contenedorVideo">
+      <img
+        class="imagenFondo"
+        src="/assets/fondo portada.png"
+        alt="fondo portada como gladietor"
+      />
+      <div class="fondoNegro"></div>
+      <div class="logo"><img src="/assets/Logo-Delirium3.png" alt="" /></div>
+      <div class="enemigos"></div>
+    </section>
+
+    <section class="contenedorClases">
+      <div class="contenedorIconosClases">
+        <div class="textoElige">Elige a tu</div>
+        <div class="heroeTitulo">
+          <h1>HEROE</h1>
+        </div>
+        <div class="textoHeroes">
+          Combates cuerpo a cuerpo sigilosos y con estilo o brutales acometidas,
+          o quizas prefieres la magia y los ataques a distancia, elige lo que
+          mejor se te adapte
+        </div>
+
+        <div class="imagenesDeIconos">
+          <div class="contenedorEmblema emblemaGuerrero">
+            <img
+              class="imagenEmblema"
+              src="/assets/emblema guerrero.png"
+              alt="emblema guerrero"
+            />
+            <div class="nombreEmblema">Guerrero</div>
+          </div>
+
+          <div class="contenedorEmblema emblemaMago">
+            <img
+              class="imagenEmblema"
+              src="/assets/emblema mago.png"
+              alt="emblema guerrero"
+            />
+            <div class="nombreEmblema">Mago</div>
+          </div>
+          <div class="contenedorEmblema emblemaCazador">
+            <img
+              class="imagenEmblema"
+              src="/assets/emblemaCazador.png"
+              alt="emblema guerrero"
+            />
+            <div class="nombreEmblema">Cazador</div>
+          </div>
+          <div class="contenedorEmblema emblemaSacerdote">
+            <img
+              class="imagenEmblema"
+              src="/assets/emblemaSacerdote.png"
+              alt="emblema guerrero"
+            />
+            <div class="nombreEmblema">Sacerdote</div>
+          </div>
+          <div class="contenedorEmblema emblemaPicaro">
+            <img
+              class="imagenEmblema"
+              src="/assets/emblemaPicaro.png"
+              alt="emblema guerrero"
+            />
+            <div class="nombreEmblema">Picaro</div>
+          </div>
+        </div>
+        <div class="botoncomojugarclase">Aprender mas del heroe</div>
+      </div>
+      <div class="fotoHeroes">
+        <img class="imagencazadora" src="/assets/cazadora.png" alt="cazadora" />
+
+        Hunter <br /><span class="descriptionClases">asdasd</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="contenedorBotones">
+        <a class="boton"> <label for="Clases"></label> Clases </a>
+        <select id="Clases" name="opciones">
+          <option value="guerrero"></option>
+          <option value="Mago"></option>
+          <option value="Cazador"></option>
+          <option value="Sacerdote"></option>
+        </select>
+        <div class="boton">
+          <a class="boton" href="https://leagueoflegends.com" target="_blank">
+            Registro
+          </a>
+        </div>
+        <div class="boton">
+          <a class="boton" href="/enemigos.html">Enemigos</a>
+        </div>
+
+        <div class="boton">
+          <a class="boton" href="/clases/guerrero.html">Guerrero</a>
+        </div>
+      </div>
+    </footer>
+    <section class="finalPagina">
+      <img class="iconoFooter" src="/assets/Icono-Delirium2.png" />
+      <div class="textoDerechos">
+        @2025 DeliriumGames.Todos los derechos reservados.Delirium,Deliriumgames
+        y PvP son marcas comerciales o marcas registradas por Delirium Games,
+        Inc.
+      </div>
+    </section>
+
+    <!-- Indicador de Tamaño Tailwind-->
+    <div
+      class="fixed bottom-0 right-0 z-50 bg-red-700 sm:bg-yellow-700 lg:bg-blue-700 xl:bg-green-700"
+    >
+      <span class="text-white block sm:hidden">M</span>
+      <span class="text-white hidden sm:block lg:hidden">SM</span>
+      <span class="text-white hidden lg:block xl:hidden">LG</span>
+      <span class="text-white hidden xl:block">XL</span>
+    </div>
+  </body>
+</html>

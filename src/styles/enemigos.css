@@ -1,0 +1,72 @@
+//css de enemigos//
+
+body {
+  position: relative;
+}
+.azul {
+  background-color: blue;
+}
+.rosa {
+  background-color: rgb(190, 18, 190);
+}
+.negro {
+  background-color: black;
+}
+#contenedorEnemigos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  gap: 20px;
+  padding-top: 50px;
+
+  .contenedorEnemigo {
+    background-color: rgb(84, 81, 224);
+    width: 20%;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    aspect-ratio: 0.75;
+  }
+  .contenedorImagenes {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fondoBosque {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  .imagenEnemigo {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin: auto;
+  }
+  .nombreGnoll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    color: aliceblue;
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: rgb(161, 77, 77);
+  }
+}

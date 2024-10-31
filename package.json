@@ -1,0 +1,19 @@
+{
+  "name": "deliriumweb",
+  "version": "1.0.0",
+  "description": "Página web de Delirium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "reload": "browser-sync start --proxy localhost:3000 --files=src/* --ignore=node_modules"
+  },
+  "author": "Carlos Cabrera | Emilio Diaz",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

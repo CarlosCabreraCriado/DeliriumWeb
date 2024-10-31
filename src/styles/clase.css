@@ -1,0 +1,189 @@
+.body {
+  position: relative;
+}
+.azul {
+  background-color: blue;
+}
+.verde {
+  background-color: green;
+}
+.naranja {
+  background-color: rgb(240, 114, 65);
+}
+.rosa {
+  background-color: rgb(235, 39, 120);
+}
+header {
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: aliceblue;
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+#seccionHeroe {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+
+  .imagenHeroe {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+  }
+  .imagenFondoDescripcionHeroe {
+    position: absolute;
+    width: auto;
+    height: 100%;
+
+    min-width: 100%;
+  }
+  .filtroImagenFondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .textoDescripcionHeroe {
+    color: rgb(243, 243, 243);
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+  }
+  .descripcionHeroe {
+    position: relative;
+    width: 45vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+  }
+  .contenedorImagenHeroe {
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contenedorRol {
+    /*background-color: rgb(235, 39, 120);*/
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .tiporol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagenTipoRol {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+  }
+  .textoTipoRol {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+  }
+}
+#seccionHabilidades {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  .imagenFondoDescripcionHeroe {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+  }
+  .filtroImagenFondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .textoTipoRol {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    height: 2em;
+  }
+  .imagenTipoRol {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    border-radius: 500%;
+  }
+  .contenedorHabilidades {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+  }
+  .textoDescripcionHeroe {
+    color: rgb(243, 243, 243);
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+  }
+
+  .descripcionHabilidad {
+    width: 45vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .descripcionHabilidades {
+    position: relative;
+    width: 45vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+  }
+  .tipoRol {
+    width: 20%;
+    position: relative;
+  }
+}

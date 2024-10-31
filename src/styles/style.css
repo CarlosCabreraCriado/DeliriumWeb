@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0%;
+  font-family: fantasy;
+}
+
+/*esto es un comentario*/
+
+.contenedorBotones {
+  display: flex;
+  gap: 20px;
+  flex: 0%;
+  justify-content: center;
+  .boton {
+    height: auto;
+    font-size: xx-large;
+    inset: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: aliceblue;
+  }
+  .boton:hover {
+    color: yellow;
+    background-color: grey;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 1025px) {
+  .contenedorBotones {
+    display: none;
+  }
+  .burger {
+    display: block !important;
+  }
+  .lupa {
+    display: none !important;
+  }
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrapwrap;
+  position: fixed;
+  z-index: 100;
+  top: 0%;
+  flex-direction: row;
+  .icono {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin: 15px;
+  }
+
+  .lupa {
+    display: flex;
+    position: relative;
+    height: 50%;
+    margin: 15px;
+  }
+  .burger {
+    display: none;
+    position: relative;
+    height: 50%;
+    margin: 15px;
+    filter: invert(1);
+  }
+}
+
+.contenedorVideo {
+  display: flex;
+  margin-top: 0vh;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  .fondoNegro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .imagenFondo {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .logo {
+    border: 1px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    img {
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+.contenedorClases {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+}
+.contenedorIconosClases {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: x-large;
+  width: 50%;
+  margin: 20px;
+  position: relative;
+  gap: 30px;
+}
+.fotoHeroes {
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+.imagencazadora {
+  max-width: 100%;
+  max-height: 70%;
+  transition: all 1s;
+}
+
+.descriptionClases {
+  font-size: small;
+}
+.imagenesDeIconos {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  .contenedorEmblema {
+    width: 20%;
+  }
+}
+.imagenEmblema {
+  height: auto;
+  width: 100%;
+  transition: all 1s;
+}
+.imagenEmblema:hover {
+  width: 110%;
+}
+.emblemaGuerrero:hover {
+  background-color: red;
+}
+
+.emblemaMago:hover {
+  background-color: blue;
+}
+
+.emblemaCazador:hover {
+  background-color: green;
+}
+
+.emblemaSacerdote:hover {
+  background-color: rgb(201, 15, 170);
+}
+
+.emblemaPicaro:hover {
+  background-color: yellow;
+}
+.textoElige {
+  font-size: medium;
+  color: rgb(29, 29, 29);
+  font-family: "Times New Roman", Times, serif;
+}
+.heroeTitulo {
+  color: rgb(10, 10, 10);
+  font-size: x-large;
+  font-style: oblique;
+}
+.textoHeroes {
+  color: rgb(29, 29, 29);
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botoncomojugarclase {
+  width: 50%;
+  position: relative;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+  z-index: 100;
+  bottom: 0%;
+  flex-direction: row;
+  .icono {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin: 15px;
+  }
+
+  .lupa {
+    display: flex;
+    position: relative;
+    height: 50%;
+    margin: 15px;
+  }
+  .burger {
+    display: none;
+    position: relative;
+    height: 50%;
+    margin: 15px;
+    filter: invert(1);
+  }
+}
+.finalPagina {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.8);
+  gap: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.iconoFooter {
+  height: 10%;
+  width: 10%;
+  margin: 20px;
+}
+.textoDerechos {
+  margin: 10px;
+}
